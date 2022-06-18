@@ -1,6 +1,6 @@
 # Modern C++ Programming Cookbook
 
-## [Chapter 1 - Learning Modern Core Language Features] (https://github.com/FMFigueroa/Modern-Cpp-Programming/tree/main/Chapter%201%20-%20Learning%20Modern%20Core%20%20Language%20Features)
+## [Chapter 1 - Learning Modern Core Language Features](https://github.com/FMFigueroa/Modern-Cpp-Programming/tree/main/Chapter%201%20-%20Learning%20Modern%20Core%20%20Language%20Features)
 
 - Using auto whenever possible
 - Creating type aliases and alias templates
