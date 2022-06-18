@@ -1,0 +1,166 @@
+# Modern C++ Programming Cookbook
+
+## Chapter 1 - Learning Modern Core Language Features
+
+- Using auto whenever possible
+- Creating type aliases and alias templates
+- Understanding uniform initialization
+- Understanding the various forms of non-static member initialization
+- Controlling and querying object alignment
+- Using scoped enumerations
+- Using override and final for virtual methods
+- Using range-based for loops to iterate on a range
+- Enabling range-based for loops for custom types
+- Using explicit constructors and conversion operators to avoid implicit conversion
+- Using unnamed namespaces instead of static globals
+- Using inline namespaces for symbol versioning
+- Using structured bindings to handle multi-return values
+- Simplifying code with class template argument deduction
+
+## Chapter 2 - Working with Numbers and Strings
+
+- Converting between numeric and string types
+- Limits and other properties of numeric types
+- Generating pseudo-random numbers
+- Initializing all the bits of the internal state of a pseudo-random number generator
+- Creating cooked user-defined literals
+- Creating raw, user-defined literals
+- Using raw string literals to avoid escaping characters
+- Creating a library of string helpers
+- Verifying the format of a string using regular expressions
+- Parsing the content of a string using regular expressions
+- Replacing the content of a string using regular expressions
+- Using std::string_view instead of constant string references
+- Formatting text with std::format
+- Using std::format with user-defined types
+
+## Chapter 3 - Exploring Functions
+
+- Defaulted and deleted functions
+- Using lambdas with standard algorithms
+- Using generic and template lambdas
+- Writing a recursive lambda
+- Writing a function template with a variable number of arguments
+- Using fold expressions to simplify variadic function templates
+- Implementing the higher-order functions map and fold
+- Composing functions into a higher-order function
+- Uniformly invoking anything callable
+
+## Chapter 4 - Preprocessing and Compilation
+
+- Conditionally compiling your source code
+- Using the indirection pattern for preprocessor stringification and concatenation
+- Performing compile-time assertion checks with static_assert
+- Conditionally compiling classes and functions with enable_if
+- Selecting branches at compile time with constexpr if
+- Providing metadata to the compiler with attributes
+
+## Chapter 5 - Standard Library Containers, Algorithms, and Iterators
+
+- Using vector as a default container
+- Using bitset for fixed-size sequences of bits
+- Using vector<bool> for variable-size sequences of bits
+- Using the bit manipulation utilities
+- Finding elements in a range
+- Sorting a range
+- Initializing a range
+- Using set operations on a range
+- Using iterators to insert new elements into a container
+- Writing your own random-access iterator
+- Container access with non-member functions
+
+## Chapter 6 - General-Purpose Utilities
+
+- Expressing time intervals with chrono::duration
+- Working with calendars
+- Converting times between time zones
+- Measuring function execution time with a standard clock
+- Generating hash values for custom types
+- Using std::any to store any value
+- Using std::optional to store optional values
+- Using std::variant as a type-safe union
+- Visiting an std::variant
+- Using std::span for contiguous sequences of objects
+- Registering a function to be called when a program exits normally
+- Using type traits to query properties of types
+- Writing your own type traits
+- Using std::conditional to choose between types
+
+## Chapter 7 - Working with Files and Streams
+
+- Reading and writing raw data from/to binary files
+- Reading and writing objects from/to binary files
+- Using localized settings for streams
+- Using I/O manipulators to control the output of a stream
+- Using monetary I/O manipulators
+- Using time I/O manipulators
+- Working with filesystem paths
+- Creating, copying, and deleting files and directories
+- Removing content from a file
+- Checking the properties of an existing file or directory
+- Enumerating the content of a directory
+- Finding a file
+
+## Chapter 8 - Leveraging Threading and Concurrency
+
+- Working with threads
+- Synchronizing access to shared data with mutexes and locks
+- Avoiding using recursive mutexes
+- Handling exceptions from thread functions
+- Sending notifications between threads
+- Using promises and futures to return values from threads
+- Executing functions asynchronously
+- Using atomic types
+- Implementing parallel map and fold with threads
+- Implementing parallel map and fold with tasks
+- Implementing parallel map and fold with standard parallel algorithms
+- Using joinable threads and cancellation mechanisms
+- Using thread synchronization mechanisms
+
+## Chapter 9 - Robustness and Performance
+
+- Using exceptions for error handling
+- Using noexcept for functions that do not throw exceptions
+- Ensuring constant correctness for a program
+- Creating compile-time constant expressions
+- Creating immediate functions
+- Performing correct type casts
+- Using unique_ptr to uniquely own a memory resource
+- Using shared_ptr to share a memory resource
+- Implementing move semantics
+- Consistent comparison with the operator <=>
+
+## Chapter 10 - Implementing Patterns and Idioms
+
+- Avoiding repetitive if...else statements in factory patterns
+- Implementing the pimpl idiom
+- Implementing the named parameter idiom
+- Separating interfaces from implementations with the non-virtual interface idiom
+- Handling friendship with the attorney-client idiom
+- Static polymorphism with the curiously recurring template pattern
+- Implementing a thread-safe singleton
+
+## Chapter 11 - Exploring Testing Frameworks
+
+- Getting started with Boost.Test
+- Writing and invoking tests with Boost.Test
+- Asserting with Boost.Test
+- Using test fixtures with Boost.Test
+- Controlling output with Boost.Test
+- Getting started with Google Test
+- Writing and invoking tests with Google Test
+- Asserting with Google Test
+- Using test fixtures with Google Test
+- Controlling output with Google Test
+- Getting started with Catch2
+
+## Chapter 12 - C++20 Core Features
+
+- Working with modules
+- Understanding module partitions
+- Specifying requirements on template arguments with concepts
+- Using requires expressions and clauses
+- Iterating over collections with the ranges library
+- Creating your own range view
+- Creating a coroutine task type for asynchronous computations
+- Creating a coroutine generator type for sequences of values
